@@ -1,0 +1,190 @@
+.titulo{
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0%;
+    background-color: #1b1b1b;
+    margin-bottom: 30px;
+    padding: 20px 0px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #000000;
+    font-family: Arial, Helvetica, SansSerif;
+}
+.peliculas {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    align-items: stretch;
+    margin-top: 0px;
+    padding: 20px;
+}
+.peliculas :hover{
+    background: #8f8f8f;
+}
+
+.peliculas .card {
+    max-width: 300px;
+    margin: 0 auto;
+    border: 3px solid white;
+    border-radius: 8px;
+    padding: 20px 20px 0px 20px;
+}
+
+
+.peliculas .card-img-container {
+    text-align: center;
+
+}
+
+
+.peliculas .card-img-container img {
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.peliculas .badge-no-disponible {
+    color: red;
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+
+
+}
+
+.texto-verde {
+    color: #22c55e;
+    font-weight: bold;
+}
+
+.texto-rojo {
+    color: white;
+    font-weight: bold;
+    background-color: red;
+}
+
+.peliculas .card-content {
+    text-align: center;
+    color: white;
+}
+
+
+.peliculas .card-content .id {
+    text-align: center;
+    color: yellow;
+    border-block: 1px yellow solid;
+}
+
+.peliculas .card-content .title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.peliculas .estado{
+    color: white;
+    font-weight: bold;
+
+}
+
+
+.seccion-universo{
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    padding: 35px;
+    border: 3px solid white;
+    border-radius: 4px;
+}
+
+.seccion-universo h2{
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0%;
+    background-color: #1b1b1b;
+    margin-bottom: 30px;
+    padding: 20px 0px;
+}
+
+
+.seccion-bestresult{
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    padding: 35px;
+    border: 3px solid white;
+    border-radius: 4px;
+}
+
+.seccion-bestresult h2{
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0%;
+    background-color: #1b1b1b;
+    margin-bottom: 30px;
+    padding: 20px 0px;
+}
+
+
+.seccion-lista{
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    padding: 35px;
+    border: 3px solid white;
+    border-radius: 4px;
+
+}
+
+.seccion-lista h2{
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0%;
+    background-color: #1b1b1b;
+    margin-bottom: 30px;
+    padding: 20px 0px;
+}
+
+.form-container {
+    background-color: #000000;
+    text-align: center;
+    color: white;
+    padding: 35px;
+    border: 3px solid white;
+    border-radius: 4px;
+}
+
+.form-container h2{
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0%;
+    background-color: #1b1b1b;
+    margin-bottom: 30px;
+    padding: 20px 0px;
+}
+
+.form-group{
+    color: white;
+    text-align: center;
+    width: 100%;
+    margin: 0%;
+    background-color: #1b1b1b;
+    margin-bottom: 30px;
+    padding: 10px 0px;
+    border: 3px solid white;
+
+}
+.form-group:hover{
+    color: darkgrey;
+}
+
+
+
+
