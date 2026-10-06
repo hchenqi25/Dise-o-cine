@@ -228,7 +228,7 @@ include_once "arrays_a_usar.php";
             </div>
 
             <div class="form-button">
-            <button type="button" class="btn-submit">Añadir Película</button>
+            <button class="btn-submit">Añadir Película</button>
             </div>
 
         </form>
